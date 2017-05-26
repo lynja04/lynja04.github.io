@@ -16,13 +16,23 @@ a, a:hover, a:focus {
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-h1, h2 {
+h1 {
 	margin-top: 10px;
-	font-size: 38px;
+	font-size: 100px;
     font-weight: 300;
     color: #555;
     line-height: 50px;
+    font-style: bold;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h2 {
+	margin-top: 30px;
+	font-size: 52px;
+    font-weight: 300;
+    line-height: 50px;
     font-style: italic;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 h3 {
